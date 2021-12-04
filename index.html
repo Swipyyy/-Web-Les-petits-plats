@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les petits plats</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Les Petits Plats" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Les Petits Plats</title>
+    <script
+      src="https://kit.fontawesome.com/48e2986ff4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
+      <div class="logo">
+        <img class="logoImg" src="./medias/logo.png" alt="logo" />
+      </div>
+      <div class="searchBar">
+        <input
+          type="text"
+          id="input"
+          class="input"
+          placeholder="Recherchez un ingrédient, appareil, ustensile ou une recette"
+        />
+        <i class="fas fa-search"></i>
+      </div>
     </header>
-</body>
+    <main>
+      <div class="filters">
+        <select class="ingredients" name="ingrédients" id="ingredientsSelect">
+          <option value="">Ingrédients</option>
+        </select>
+        <select class="appareil" name="appareil" id="appareilSelect">
+          <option value="">Appareil</option>
+        </select>
+        <select class="ustensiles" name="ustensiles" id="ustensilesSelect">
+          <option value="">Ustensiles</option>
+        </select>
+      </div>
+      <div class="recettes"></div>
+    </main>
+  </body>
 </html>
