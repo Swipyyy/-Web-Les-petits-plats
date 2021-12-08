@@ -1,0 +1,3 @@
+const listOfRecipes = [];
+
+export { listOfRecipes };
