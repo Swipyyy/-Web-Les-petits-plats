@@ -1,3 +1,5 @@
-import { searchData } from './searchModule.js';
+import { baseData, injectData, searchData } from './searchModule.js';
 
 searchData();
+baseData();
+injectData();

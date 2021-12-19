@@ -175,14 +175,14 @@ const recipes = [
         unit: 'cuillères à soupe'
       },
       {
-        ingredient: 'gruyère râpé',
+        ingredient: 'Gruyère râpé',
         quantity: 100,
         unit: 'grammes'
       },
       {
         ingredient: 'Moutarde de Dijon',
         quantity: 1,
-        unite: 'cuillères à soupe'
+        unit: 'cuillères à soupe'
       }
     ],
     time: 45,
@@ -1519,7 +1519,8 @@ const recipes = [
         quantity: 3
       },
       {
-        ingredient: 'Citron'
+        ingredient: 'Citron',
+        quantity: 1
       }
     ],
     time: 50,
